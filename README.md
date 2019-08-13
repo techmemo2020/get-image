@@ -5,6 +5,21 @@ This js script just takes screenshot of given URL by using puppeteer.
 
 Tested on MAC and amazon linux2
 
+## Usage
+
+```
+get-screenshot.js version x.x.x
+
+Usage: get-screenshot.js [Options] <URL>
+Options:
+  -o <output file> (default=out.png)
+  --no-headless
+      No headless mode (use chrome)
+  -v  Increase verbosity
+  -V  Ouput version info and exit
+  -h  Print this message and exit
+```
+
 ## Setup
 Just install puppeteer by
 
